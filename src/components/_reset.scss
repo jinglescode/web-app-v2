@@ -14,7 +14,7 @@
 
 /* Preferred box-sizing value */
 *,
-*::before,
+*::before:not(span),
 *::after {
   box-sizing: border-box;
   font-family: 'Inter';
