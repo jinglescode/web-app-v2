@@ -5,7 +5,7 @@ import MultiSelect from 'src/Nowruz/general/multiSelect/multiSelect';
 import { MultiSelectItem } from 'src/Nowruz/general/multiSelect/multiSelect.types';
 
 export default {
-  title: 'Multi Select',
+  title: 'General/MultiSelect',
   component: MultiSelect,
 } as const;
 
