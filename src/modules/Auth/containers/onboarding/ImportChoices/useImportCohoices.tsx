@@ -1,4 +1,7 @@
+import { useState } from 'react';
+
 export const useImportChoices = () => {
+  const [openImportModal, setOpenImportModal] = useState(false);
   const steps = [
     {
       title: 'Upload your LinkedIn CV',
@@ -17,5 +20,5 @@ export const useImportChoices = () => {
     },
   ];
 
-  return { steps };
+  return { steps, openImportModal, setOpenImportModal };
 };
