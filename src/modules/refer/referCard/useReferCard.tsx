@@ -28,10 +28,12 @@ export const useReferCard = (type: 'organization' | 'talent') => {
   };
 
   const sendInviteEmail = () => {
+    //FIXME: BE side
     setEmails([]);
     setOpenEmailModal(false);
     setOpenSentModal(true);
   };
+
   return {
     openEmailModal,
     setOpenEmailModal,
